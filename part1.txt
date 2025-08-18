@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>IELTS Speaking — Part 1 (50 Questions)</title>
+<style>
+  :root{
+    --bg:#f4f7fb; --card:#ffffff; --accent:#2b7be4; --muted:#6b7280;
+  }
+  *{box-sizing:border-box;font-family:Inter,Segoe UI,Roboto,Arial,sans-serif}
+  body{margin:0;background:var(--bg);color:#0b1220}
+  header{background:linear-gradient(90deg,var(--accent),#57a1ff);color:#fff;padding:18px;text-align:center}
+  header h1{margin:0;font-size:20px}
+  .wrap{max-width:980px;margin:18px auto;padding:12px}
+  .controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+  .btn{background:#fff;border:0;padding:8px 12px;border-radius:8px;cursor:pointer;color:var(--accent);font-weight:600;box-shadow:0 6px 18px rgba(43,123,228,0.12)}
+  .card{background:var(--card);border-radius:12px;padding:12px;margin-bottom:10px;box-shadow:0 6px 18px rgba(11,18,30,0.04)}
+  .q{font-weight:700;margin:0 0 6px}
+  .answer{display:none;margin-top:8px;padding:12px;background:#f7fbff;border-left:4px solid var(--accent);border-radius:8px;line-height:1.6}
+  .phrases{margin-top:10px;padding:8px;background:#fff7e6;border-left:4px solid #ffb020;border-radius:8px;color:#5b3b00}
+  footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center;padding-bottom:30px}
+  @media(max-width:600px){header h1{font-size:18px}}
+</style>
+</head>
+<body>
+  <header>
+    <h1>IELTS Speaking — Part 1 (50 Questions)</h1>
+    <p style="margin:6px 0 0;opacity:0.9">Click a question to reveal a Band-9 sample answer and useful phrases.</p>
+  </header>
+
+  <div class="wrap">
+    <div class="controls">
+      <button class="btn" onclick="expandAll()">Open all</button>
+      <button class="btn" onclick="collapseAll()">Close all</button>
+      <button class="btn" onclick="topScroll()">Top</button>
+    </div>
+
+    <!-- 1 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">1. Do you like your hometown?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> Yes, I do. My hometown combines modern conveniences with a strong sense of community, which makes it comfortable to live in. I particularly appreciate the local markets and friendly neighbours.</p>
+        <div class="phrases"><strong>Useful:</strong> "strong sense of community", "modern conveniences", "particularly appreciate"</div>
+      </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">2. What do you usually do in your free time?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> In my free time I like to read and go for walks. Reading relaxes me and helps me learn new things, while walking clears my head and keeps me fit.</p>
+        <div class="phrases"><strong>Useful:</strong> "in my free time", "clears my head", "keeps me fit"</div>
+      </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">3. Do you prefer tea or coffee?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I prefer coffee because it gives me an energy boost in the morning and helps me concentrate. Occasionally I enjoy herbal tea in the evening to relax.</p>
+        <div class="phrases"><strong>Useful:</strong> "energy boost", "helps me concentrate", "occasionally enjoy"</div>
+      </div>
+    </div>
+
+    <!-- 4 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">4. How often do you use social media?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I use social media moderately — mainly to keep in touch with friends and follow news. I try to avoid endless scrolling and focus on useful content instead.</p>
+        <div class="phrases"><strong>Useful:</strong> "keep in touch", "follow news", "avoid endless scrolling"</div>
+      </div>
+    </div>
+
+    <!-- 5 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">5. Do you enjoy cooking?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> Yes, I enjoy cooking because it lets me be creative and share meals with family. Trying new recipes is fun and rewarding when guests compliment the food.</p>
+        <div class="phrases"><strong>Useful:</strong> "be creative", "share meals", "trying new recipes"</div>
+      </div>
+    </div>
+
+    <!-- 6 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">6. How do you usually travel to work or school?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I usually take public transport because it’s convenient and eco-friendly. During the commute I often read or listen to podcasts to make the time productive.</p>
+        <div class="phrases"><strong>Useful:</strong> "public transport", "eco-friendly", "make the time productive"</div>
+      </div>
+    </div>
+
+    <!-- 7 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">7. Do you like to watch films at home or at the cinema?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I prefer watching films at the cinema for big blockbusters because the big screen and sound system enhance the experience. For documentaries or dramas I usually watch at home.</p>
+        <div class="phrases"><strong>Useful:</strong> "enhance the experience", "blockbusters", "documentaries or dramas"</div>
+      </div>
+    </div>
+
+    <!-- 8 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">8. What kinds of books do you like?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I enjoy a mix of fiction and non-fiction; novels for imagination and biographies or essays for ideas. Non-fiction helps me learn practical insights I can apply in life.</p>
+        <div class="phrases"><strong>Useful:</strong> "a mix of", "practical insights", "apply in life"</div>
+      </div>
+    </div>
+
+    <!-- 9 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">9. Do you play any sports?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I play football occasionally with friends and go jogging a few times a week to stay fit. Team sports are great for socialising, while jogging is good for clear thinking.</p>
+        <div class="phrases"><strong>Useful:</strong> "stay fit", "socialising", "clear thinking"</div>
+      </div>
+    </div>
+
+    <!-- 10 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">10. How often do you meet your friends?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I try to meet close friends at least once a week, usually for coffee or a meal. Regular meetups keep relationships strong despite busy schedules.</p>
+        <div class="phrases"><strong>Useful:</strong> "at least once a week", "keep relationships strong", "busy schedules"</div>
+      </div>
+    </div>
+
+    <!-- 11 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">11. Do you prefer the countryside or the city?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I appreciate both but prefer living in the city for convenience and opportunities. I visit the countryside for relaxation and to enjoy nature on weekends.</p>
+        <div class="phrases"><strong>Useful:</strong> "appreciate both", "convenience and opportunities", "enjoy nature"</div>
+      </div>
+    </div>
+
+    <!-- 12 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">12. What was your favourite subject at school?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> My favourite subject was literature because I loved analysing stories and exploring different perspectives. It helped me develop critical thinking and empathy.</p>
+        <div class="phrases"><strong>Useful:</strong> "analysing stories", "different perspectives", "critical thinking"</div>
+      </div>
+    </div>
+
+    <!-- 13 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">13. Do you like shopping for clothes?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I enjoy shopping occasionally, especially when looking for quality items. I prefer planning purchases rather than impulse buying to ensure value for money.</p>
+        <div class="phrases"><strong>Useful:</strong> "quality items", "planning purchases", "value for money"</div>
+      </div>
+    </div>
+
+    <!-- 14 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">14. Do you have any pets?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> Yes, I have a dog which is part of the family. Taking care of a pet teaches responsibility and brings a lot of joy to daily life.</p>
+        <div class="phrases"><strong>Useful:</strong> "part of the family", "teaches responsibility", "brings joy"</div>
+      </div>
+    </div>
+
+    <!-- 15 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">15. How do you usually celebrate special occasions?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I usually celebrate with family meals and small gatherings; sharing food and stories makes occasions memorable. Occasionally we travel to mark special milestones.</p>
+        <div class="phrases"><strong>Useful:</strong> "family meals", "memorable occasions", "mark special milestones"</div>
+      </div>
+    </div>
+
+    <!-- 16 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">16. Do you like to take photos?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> Yes, photography helps me capture moments and notice details I might otherwise miss. I enjoy taking informal photos when I travel or meet friends.</p>
+        <div class="phrases"><strong>Useful:</strong> "capture moments", "notice details", "when I travel"</div>
+      </div>
+    </div>
+
+    <!-- 17 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">17. Do you prefer to eat at home or in restaurants?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I prefer eating at home for everyday meals because it’s healthier and more economical, but I enjoy restaurants for special occasions or trying new cuisines.</p>
+        <div class="phrases"><strong>Useful:</strong> "healthier", "more economical", "trying new cuisines"</div>
+      </div>
+    </div>
+
+    <!-- 18 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">18. How often do you exercise?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I try to exercise three times a week, usually jogging or doing a short gym session. Regular exercise helps maintain energy and reduces stress.</p>
+        <div class="phrases"><strong>Useful:</strong> "three times a week", "maintain energy", "reduces stress"</div>
+      </div>
+    </div>
+
+    <!-- 19 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">19. What apps do you use most on your phone?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I mainly use messaging, note-taking and language learning apps. They help me stay organised, communicate with others and improve skills efficiently.</p>
+        <div class="phrases"><strong>Useful:</strong> "stay organised", "language learning apps", "improve skills"</div>
+      </div>
+    </div>
+
+    <!-- 20 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">20. Do you like to travel by plane?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I don’t mind flying; it’s fast and convenient for long distances. However, I prefer scenic trains for shorter trips if time allows.</p>
+        <div class="phrases"><strong>Useful:</strong> "fast and convenient", "scenic trains", "if time allows"</div>
+      </div>
+    </div>
+
+    <!-- 21 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">21. How important is punctuality to you?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> Punctuality is very important as it shows respect for others’ time and helps plans run smoothly. I try to arrive a little early for appointments.</p>
+        <div class="phrases"><strong>Useful:</strong> "shows respect", "run smoothly", "arrive a little early"</div>
+      </div>
+    </div>
+
+    <!-- 22 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">22. Do you prefer to plan or be spontaneous?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I usually plan important tasks to avoid stress but leave room for spontaneity in leisure activities. A balance of both works best for me.</p>
+        <div class="phrases"><strong>Useful:</strong> "avoid stress", "leave room", "a balance of both"</div>
+      </div>
+    </div>
+
+    <!-- 23 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">23. How do you relax after a busy day?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I relax by reading, listening to music or taking a short walk. These simple activities help me unwind and recharge for the next day.</p>
+        <div class="phrases"><strong>Useful:</strong> "unwind", "recharge", "simple activities"</div>
+      </div>
+    </div>
+
+    <!-- 24 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">24. Do you like meeting new people?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> Yes, meeting new people is stimulating and broadens my perspective. While I may be reserved at first, meaningful conversations often follow.</p>
+        <div class="phrases"><strong>Useful:</strong> "broadens my perspective", "reserved at first", "meaningful conversations"</div>
+      </div>
+    </div>
+
+    <!-- 25 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">25. What is your favourite season?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> My favourite season is spring because the weather is mild and nature renews itself. It’s an ideal time for outdoor activities and new beginnings.</p>
+        <div class="phrases"><strong>Useful:</strong> "mild weather", "nature renews itself", "new beginnings"</div>
+      </div>
+    </div>
+
+    <!-- 26 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">26. Do you prefer to read online or on paper?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I use both: online for quick articles and paper for in-depth reading. Paper helps me focus better without digital distractions.</p>
+        <div class="phrases"><strong>Useful:</strong> "in-depth reading", "digital distractions", "use both"</div>
+      </div>
+    </div>
+
+    <!-- 27 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">27. How often do you visit your relatives?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I visit relatives on major occasions and try to see close family more regularly. Maintaining these ties is important for mutual support and tradition.</p>
+        <div class="phrases"><strong>Useful:</strong> "major occasions", "mutual support", "maintaining ties"</div>
+      </div>
+    </div>
+
+    <!-- 28 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">28. Do you like to cook traditional dishes?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> Yes, cooking traditional dishes connects me to my culture and family memories. I enjoy learning recipes passed down through generations.</p>
+        <div class="phrases"><strong>Useful:</strong> "connects me to my culture", "family memories", "passed down"</div>
+      </div>
+    </div>
+
+    <!-- 29 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">29. What would you do on a free day?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> On a free day I like to mix relaxation with light activity — reading, meeting friends or going for a hike. These activities help me recharge and pursue hobbies.</p>
+        <div class="phrases"><strong>Useful:</strong> "mix relaxation with activity", "recharge", "pursue hobbies"</div>
+      </div>
+    </div>
+
+    <!-- 30 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">30. Do you prefer watching sports or playing them?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I prefer playing sports because it’s good exercise and social; watching is enjoyable when there’s a major event or to support friends.</p>
+        <div class="phrases"><strong>Useful:</strong> "good exercise", "support friends", "major event"</div>
+      </div>
+    </div>
+
+    <!-- 31 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">31. Do you like art galleries?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I enjoy art galleries because they offer a quiet space to reflect and encounter different ideas. Exhibitions often inspire creativity and fresh thinking.</p>
+        <div class="phrases"><strong>Useful:</strong> "offer a quiet space", "encounter ideas", "inspire creativity"</div>
+      </div>
+    </div>
+
+    <!-- 32 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">32. How often do you buy new clothes?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I buy new clothes occasionally and prefer quality over quantity. I plan purchases carefully to ensure they suit my needs and style.</p>
+        <div class="phrases"><strong>Useful:</strong> "quality over quantity", "plan purchases", "suit my needs"</div>
+      </div>
+    </div>
+
+    <!-- 33 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">33. Do you enjoy gardening?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I enjoy simple gardening like growing herbs or flowers; it’s relaxing and rewarding to see growth over time. Gardening also teaches patience and care.</p>
+        <div class="phrases"><strong>Useful:</strong> "growing herbs", "relaxing and rewarding", "teaches patience"</div>
+      </div>
+    </div>
+
+    <!-- 34 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">34. What do you do to stay healthy?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I combine regular exercise, balanced diet and adequate sleep to stay healthy. Small daily habits like walking and mindful eating add up over time.</p>
+        <div class="phrases"><strong>Useful:</strong> "balanced diet", "adequate sleep", "small daily habits"</div>
+      </div>
+    </div>
+
+    <!-- 35 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">35. Do you follow fashion trends?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I follow trends casually but prefer clothes that are comfortable and timeless. I adapt trends to suit my personal style rather than follow them blindly.</p>
+        <div class="phrases"><strong>Useful:</strong> "follow casually", "timeless", "personal style"</div>
+      </div>
+    </div>
+
+    <!-- 36 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">36. Do you like to cook for others?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I like cooking for others because it’s a way to show care and share culture. Preparing a meal for friends always feels rewarding.</p>
+        <div class="phrases"><strong>Useful:</strong> "show care", "share culture", "feels rewarding"</div>
+      </div>
+    </div>
+
+    <!-- 37 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">37. How do you usually celebrate birthdays?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I celebrate birthdays with close family and friends, often sharing a meal and exchanging small gifts. It’s usually low-key but meaningful.</p>
+        <div class="phrases"><strong>Useful:</strong> "close family and friends", "low-key but meaningful", "sharing a meal"</div>
+      </div>
+    </div>
+
+    <!-- 38 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">38. Do you prefer to study alone or in groups?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I prefer a mix: studying alone for concentration and group sessions for discussion and clarification. Both approaches complement each other well.</p>
+        <div class="phrases"><strong>Useful:</strong> "concentration", "group sessions", "complement each other"</div>
+      </div>
+    </div>
+
+    <!-- 39 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">39. How important is money to you?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> Money is important as it provides security and enables opportunities, but it’s not the sole measure of success. I value personal growth and relationships equally.</p>
+        <div class="phrases"><strong>Useful:</strong> "provides security", "not the sole measure", "personal growth"</div>
+      </div>
+    </div>
+
+    <!-- 40 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">40. Do you prefer listening to radio or podcasts?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I prefer podcasts because I can choose topics that interest me and listen on demand. They are convenient for learning during commutes or chores.</p>
+        <div class="phrases"><strong>Useful:</strong> "on demand", "during commutes", "choose topics"</div>
+      </div>
+    </div>
+
+    <!-- 41 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">41. What kind of weather do you like?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I like mild, sunny weather because it encourages outdoor activities and boosts mood. Extreme weather tends to limit plans.</p>
+        <div class="phrases"><strong>Useful:</strong> "mild, sunny", "encourages outdoor activities", "boosts mood"</div>
+      </div>
+    </div>
+
+    <!-- 42 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">42. Do you prefer to keep a diary or notes?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I keep notes rather than a diary; short lists and reminders help me stay organised. Writing things down makes tasks easier to manage.</p>
+        <div class="phrases"><strong>Useful:</strong> "stay organised", "writing things down", "manage tasks"</div>
+      </div>
+    </div>
+
+    <!-- 43 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">43. How often do you use a computer?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I use a computer daily for study, work and entertainment. Good digital skills are essential in modern life, so I practise regularly.</p>
+        <div class="phrases"><strong>Useful:</strong> "daily for study", "digital skills", "practise regularly"</div>
+      </div>
+    </div>
+
+    <!-- 44 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">44. Do you like going to cafes?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I enjoy cafes occasionally as they provide a relaxed space to work or meet friends. A quiet café can be very productive for focused tasks.</p>
+        <div class="phrases"><strong>Useful:</strong> "relaxed space", "meet friends", "productive"</div>
+      </div>
+    </div>
+
+    <!-- 45 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">45. What do you usually buy at the supermarket?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I mainly buy fresh produce and staples, planning meals ahead to avoid waste. I also look for seasonal items for better flavour and value.</p>
+        <div class="phrases"><strong>Useful:</strong> "fresh produce", "plan meals", "seasonal items"</div>
+      </div>
+    </div>
+
+    <!-- 46 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">46. Do you like visiting museums?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> Yes, museums are great places to learn about history and culture. I find well-curated exhibitions both educational and inspiring.</p>
+        <div class="phrases"><strong>Useful:</strong> "well-curated exhibitions", "educational and inspiring", "learn about history"</div>
+      </div>
+    </div>
+
+    <!-- 47 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">47. How do you keep up with current events?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I follow reputable news sites and a few daily podcasts; I prefer concise summaries that give me a clear picture of major developments. I also cross-check stories when they seem surprising.</p>
+        <div class="phrases"><strong>Useful:</strong> "reputable news sites", "concise summaries", "cross-check stories"</div>
+      </div>
+    </div>
+
+    <!-- 48 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">48. What is your favourite way to travel long distances?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> For long distances I prefer trains when time allows because they are scenic and comfortable; for urgent trips, flights are more practical.</p>
+        <div class="phrases"><strong>Useful:</strong> "time allows", "scenic and comfortable", "more practical"</div>
+      </div>
+    </div>
+
+    <!-- 49 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">49. Do you like giving or receiving gifts?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> I enjoy giving gifts because choosing something meaningful for someone is rewarding. Receiving gifts is lovely too, especially when it reflects thoughtfulness.</p>
+        <div class="phrases"><strong>Useful:</strong> "meaningful", "rewarding", "thoughtfulness"</div>
+      </div>
+    </div>
+
+    <!-- 50 -->
+    <div class="card" onclick="toggle(this)">
+      <div class="q">50. What helps you learn better?</div>
+      <div class="answer">
+        <p><strong>Sample:</strong> Active practice, structured routines and timely feedback help me learn best. Setting small goals and reviewing material regularly reinforce memory and progress.</p>
+        <div class="phrases"><strong>Useful:</strong> "active practice", "structured routines", "timely feedback"</div>
+      </div>
+    </div>
+
+    <footer>Tip: practice saying each answer aloud for 30–90 seconds and personalise details to sound natural.</footer>
+  </div>
+
+<script>
+  // toggle single card
+  function toggle(card){
+    const ans = card.querySelector('.answer');
+    if(!ans) return;
+    ans.style.display = ans.style.display === 'block' ? 'none' : 'block';
+  }
+  function expandAll(){
+    document.querySelectorAll('.answer').forEach(a=>a.style.display='block');
+    topScroll();
+  }
+  function collapseAll(){
+    document.querySelectorAll('.answer').forEach(a=>a.style.display='none');
+    topScroll();
+  }
+  function topScroll(){ window.scrollTo({top:0,behavior:'smooth'}); }
+  // allow keyboard accessibility: toggle by Enter when focused
+  document.addEventListener('keydown', e=>{
+    if(e.key==='Enter'){ 
+      const active = document.activeElement;
+      if(active && active.classList.contains('card')) toggle(active);
+    }
+  });
+  // make cards focusable for accessibility
+  document.querySelectorAll('.card').forEach(c=>c.setAttribute('tabindex','0'));
+</script>
+</body>
+</html>
