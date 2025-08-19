@@ -17,6 +17,43 @@
   </style>
 </head>
 <body>
+  <style>
+  :root{
+    --bg:#f4f7fb; --card:#ffffff; --accent:#2b7be4; --muted:#6b7280;
+  }
+  *{box-sizing:border-box;font-family:Inter,Segoe UI,Roboto,Arial,sans-serif}
+  body{margin:0;background:var(--bg);color:#0b1220}
+  header{background:linear-gradient(90deg,var(--accent),#57a1ff);color:#fff;padding:18px;text-align:center}
+  header h1{margin:0;font-size:20px}
+  .wrap{max-width:980px;margin:18px auto;padding:12px}
+  .controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+  .btn{background:#fff;border:0;padding:8px 12px;border-radius:8px;cursor:pointer;color:var(--accent);font-weight:600;box-shadow:0 6px 18px rgba(43,123,228,0.12)}
+  .card{background:var(--card);border-radius:12px;padding:12px;margin-bottom:10px;box-shadow:0 6px 18px rgba(11,18,30,0.04)}
+  .q{font-weight:700;margin:0 0 6px}
+  .answer{display:none;margin-top:8px;padding:12px;background:#f7fbff;border-left:4px solid var(--accent);border-radius:8px;line-height:1.6}
+  .phrases{margin-top:10px;padding:8px;background:#fff7e6;border-left:4px solid #ffb020;border-radius:8px;color:#5b3b00}
+  footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center;padding-bottom:30px}
+  @media(max-width:600px){header h1{font-size:18px}}
+</style>
+  <div class="wrap">
+    <div class="controls">
+      <button class="btn" onclick="expandAll()">Open all</button>
+      <button class="btn" onclick="collapseAll()">Close all</button>
+      <button class="btn" onclick="goToLink0()">Part1</button>
+<button class="btn" onclick="goToLink()">Part2</button>
+      <button class="btn" onclick="goToLink1()">Part3</button>
+    </div>
+<script>
+    function goToLink0() {
+    window.location.href = "https://speaking-nine.vercel.app/part1.html";
+}
+function goToLink() {
+    window.location.href = "https://speaking-nine.vercel.app/part2.html";
+}
+  function goToLink1() {
+    window.location.href = "https://speaking-nine.vercel.app/part3.html";
+}
+</script>
 <div class="container">
 
   <!-- 1 -->
@@ -618,3 +655,4 @@ function toggleContent(id){
 </script>
 </body>
 </html>
+
