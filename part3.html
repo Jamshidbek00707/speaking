@@ -33,8 +33,21 @@
     <div class="controls">
       <button class="btn" onclick="expandAll()">Barchasini och</button>
       <button class="btn" onclick="collapseAll()">Barchasini yop</button>
-      <button class="btn" onclick="scrollTop()">Yuqariga</button>
+          <button class="btn" onclick="goToLink0()">Part1</button>
+<button class="btn" onclick="goToLink()">Part2</button>
+      <button class="btn" onclick="goToLink1()">Part3</button>
     </div>
+<script>
+    function goToLink0() {
+    window.location.href = "https://speaking-nine.vercel.app/part1.html";
+}
+function goToLink() {
+    window.location.href = "https://speaking-nine.vercel.app/part2.html";
+}
+  function goToLink1() {
+    window.location.href = "https://speaking-nine.vercel.app/part3.html";
+}
+</script>
 
     <!-- Questions 1–50 -->
     <!-- For each card: click toggles .answer -->
@@ -461,3 +474,4 @@
 </script>
 </body>
 </html>
+
