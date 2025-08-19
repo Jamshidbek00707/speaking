@@ -33,9 +33,17 @@
     <div class="controls">
       <button class="btn" onclick="expandAll()">Open all</button>
       <button class="btn" onclick="collapseAll()">Close all</button>
-      <button class="btn" onclick="topScroll()">Top</button>
+<button class="btn" onclick="goToLink()">Part2</button>
+      <button class="btn" onclick="goToLink1()">Part3</button>
     </div>
-
+<script>
+function goToLink() {
+    window.location.href = "https://speaking-nine.vercel.app/part2.html";
+}
+  function goToLink1() {
+    window.location.href = "https://speaking-nine.vercel.app/part3.html";
+}
+</script>
     <!-- 1 -->
     <div class="card" onclick="toggle(this)">
       <div class="q">1. Do you like your hometown?</div>
@@ -517,3 +525,4 @@
 </script>
 </body>
 </html>
+
